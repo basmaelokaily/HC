@@ -1,0 +1,100 @@
+.au-background_image {
+    position: relative;
+    left: 0;
+    z-index: -1;
+    object-position: top; /* Prevent image from being cut off at the top */
+  }
+  
+  .au-hero-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    position: relative; /* Required for the pseudo-element */
+  }
+  
+  .au-hero-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, rgba(1, 37, 114, 0) 0%, #2A8C95 80%, #020E28 100%);
+    z-index: 1;
+ 
+  }
+    /***/
+  .au-backg_content {
+    width: 35%;/* Aligns to the left */
+    padding-left: 80px;
+    position: absolute; /* Optional: Add some padding for spacing */
+    z-index: 1;
+}
+
+  .au-backg_content > h5 {
+    color: #fff;
+    margin-top: -50px;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+
+  .au-backg_content > h1 {
+    color: #fff;
+    font-size: 70px;
+  }
+
+  .au-hero-parag {
+    color:#012572;
+    background-color: #fff;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+
+  }
+  
+
+
+  @media screen and (max-width: 960px) {
+    .backg_content{
+        width: 40%
+    }
+    
+    .backg_content > h1 {
+      font-size: 70px;
+ 
+    }
+
+    .backg_content > h5 {
+        font-size: 30px;
+        
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .backg_content{
+        width: 60%
+    }
+    
+    .backg_content > h1 {
+      font-size: 50px;
+    }
+  
+    .backg_content > h5 {  
+      font-size: 20px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
