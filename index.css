@@ -1,0 +1,51 @@
+/* tailwindcss */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* ===== */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+:root{
+  --navy-bg: rgba(25, 33, 61, 1);
+  --green-color:  rgba(60, 183, 168, 1);
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+  html {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  color: #000000;
+  }
+  
+  body {
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+  }
+  
+  .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem 0.5rem;
+  }
+
+/********************************************************************************************************/
+/*start navbar */ 
+
+
+
+/* end navbar */
+/***********************************************************************/
+/* footer */
+
+
+
+/* end footer*/
