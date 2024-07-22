@@ -36,7 +36,7 @@ function Section1() {
                         <p className='card-text date_month'>JULY</p>
                         <hr className='seperatorcard'/>
                         <p className='card-text event'>Conferences and<br/> Workshops</p>
-                        <div className="card">
+                        <div className="card scnd_card">
                             <div className='card-body second_event'>
                                 <p className='card-text date_day'>06</p>
                                 <p className='card-text date_month'>JULY</p>

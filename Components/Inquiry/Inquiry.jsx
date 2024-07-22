@@ -11,7 +11,7 @@ function Inquiry() {
         <div className='container-fluid fluid-container'>
             <div className='row p-5'>
                 <div className='col-md-6 header-inquiry-container'>
-                    <h3 className='header-inquiry'>For general inquiries and questions related to members</h3>
+                    <h3 className='header-inquiry me-5'>For general inquiries and questions related to members</h3>
                     <p className='header2-inquiry'>Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</p>
                 </div>
   
