@@ -1,0 +1,79 @@
+.cal-header{
+    font-family: "Inter";
+    font-size: 47.25px;
+    font-weight: 700;
+    line-height: 63.98px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: center;
+    color: #012572;
+}
+
+.cal-paragraph{
+    font-family: "Inter";
+    font-size: 17.16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #5E5F79;
+}
+
+.cal2-header{
+    font-family: "Inter";
+    font-size: 47.25px;
+    font-weight: 700;
+    line-height: 63.98px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: center;
+    color: #3CB7A8;
+}
+
+.car-row{
+    height: 90vh;
+    z-index: 1;
+}
+
+.wrapper{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-control-prev {
+    align-self: flex-end;
+    left: 47%;
+    transform: translateX(-100%); 
+    width: 6%;
+    height: 8%; 
+    background-color: rgb(255, 255, 255); 
+    border-radius: 40%; 
+    box-shadow: 0px 4px 4px black;
+}
+
+.carousel-control-next {
+    align-self: flex-end;
+    left: 53%; 
+    transform: translateX(-100%);
+    width: 6%;
+    height: 8%; 
+    background-color: #3CB7A8;
+    border-radius: 40%;
+    box-shadow: 0px 4px 4px black;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: url('../../../assets/greena.svg');
+    background-size: contain; 
+    background-repeat: no-repeat;
+    width: 24px; 
+    height: 24px; 
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../../../assets/whitea.svg');
+}

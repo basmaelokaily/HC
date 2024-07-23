@@ -1,0 +1,48 @@
+.board-card{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    transition: box-shadow 0.3s ease;
+}
+
+/* width: 378px;
+    height:570px;*/
+.bod-header1{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: #012572;
+}
+
+.bod-header2{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: #3CB7A8;
+}
+
+.bod-header3{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #6D758F;
+}
+
+.imageContainer-bod{
+    flex: 3;
+    height: 300px;
+}
+
+.textContainer-bod{
+    flex: 3;
+    height: 300px;
+}
+
+.bod-card-img-top{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0px 0px 0px;
+}

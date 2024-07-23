@@ -1,0 +1,121 @@
+.first_half{
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+.cards_1{
+    padding: 40px 40px 0px 100px ;
+}
+
+.cards_2{
+    padding: 40px 0px 0px 140px;
+    border: none;
+}
+
+.scnd_card{
+    border: none;
+}
+.header_2{
+    color: #1A2447;
+    font-family: "Inter";
+    font-size: 46.5px;
+    font-weight: 700;
+    line-height: 63.98px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+}
+
+.paragraph{
+    color: #5E5F79;    ;
+    font-family: "Inter";
+    font-size: 16.73px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 40px;
+
+}
+
+.first_event {
+    background-color: rgba(60, 183, 168, 1);
+    color: white;
+    width: 240px;
+    height: 305px;
+    border-radius: 28px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+.second_event {
+    background-color: rgb(255, 255, 255);
+    color: #1A2447;
+    width: 240px;
+    height: 305px;
+    border-radius: 28px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    bottom: -170px;
+    right: -220px;
+    z-index: 1;
+  }
+  
+.date_day{
+    padding: 10px 0px 0 0px; 
+    font-family: "Inter";
+    font-size: clamp(50px, 80px, 90px);
+    line-height: 82px;
+    letter-spacing: -1.6399999856948853px;
+}
+
+.date_month{
+    font-family: "Inter";
+    font-size: 22px;
+    letter-spacing: 2.880000114440918px;
+}
+
+.seperatorcard {
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid; /* Optional: Removes the default border style */
+  }
+
+.event{
+    font-family: "Inter";
+    font-size: 18px;
+}
+
+@media screen and (max-width: 900px){
+    .cards_1{
+        padding: 40px 0px 0px 20px ;
+    }
+    
+    .cards_2{
+        padding: 40px 0px 0px 10px;
+    }
+
+    .first_event {
+        width: 190px;
+        height: 255px;
+    }
+      
+    .second_event {
+        width: 190px;
+        height: 255px;
+        bottom: -130px;
+        right: -175px;
+    }
+      
+    .date_day{
+        padding: 5px 0px 0 0px; 
+        font-size: 60px;
+        line-height: 82px;
+    }
+    
+    .date_month{
+        font-size: 16.5px;
+    }
+
+    .event{
+        font-size: 13.5px;
+    }
+    
+}
