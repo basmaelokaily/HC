@@ -1,8 +1,8 @@
-.background-container {
-}
-
 
 .form-container-log {
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.3);    
     margin-top: 5%;
     position: absolute;
     width: 40%;

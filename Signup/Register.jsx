@@ -150,10 +150,10 @@ const Register = () => {
                     </p>
                 </section>
             ) : (
-                <div className="my-form col-sm-12">
-                    <section className="conatiner-fluid p-5 mt-5">    
+                <div className="">
+                    <section className="conatiner-fluid reg-bg-con p-5">    
                         <div className="row vh-100">
-                            <div className="col-md-4 col-sm-12">
+                            <div className="col-md-4">
                                 <div className="form-container">
                                     <div className="inner">
                                         <div className="close-btn-container">
@@ -343,12 +343,10 @@ const Register = () => {
                                                     &nbsp; By clicking (Signup) I'm confirming that I'm 16 or older, and I accept the <a href="#">Terms of Use</a>
                                                 </label>
                                             </div>
-
-                                            <div className="btn--border mb-5">
-                                                <button className="btn submit mt-3 btn--border" disabled={!validFname || !validLname || !validemail || !validpassword || !validconfirmation || !validphone || !isChecked ? true : false}>Sign Up</button>
-                                            </div>
-
-                                            <p className="line mt-2">
+                                            
+                                            <button className="btn submit mt-2 mb-2 btn--border" disabled={!validFname || !validLname || !validemail || !validpassword || !validconfirmation || !validphone || !isChecked ? true : false}>Sign Up</button>
+                                            
+                                            <p className="line">
                                                 Already registered?&nbsp;
                                                 <span className="line">
                                                     {/*put router link here*/}
@@ -361,7 +359,6 @@ const Register = () => {
                             </div>
                         </div>        
                     </section>
-
                 </div>
                 
             )}

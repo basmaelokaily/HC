@@ -13,50 +13,24 @@
 form {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
-
-
-/* .register-con{
-    border-radius: 10%;
-    height: 100vh;
-    margin-top: 2%;
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    padding: 20%;
-    z-index: 1000;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
 
 .no-underline-close{
     display: flex;
     justify-content: flex-end; 
 }
 
-/* .overlayy{
-    position: absolute;
-    object-position: top;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.377);
-} */
-
-/* .my-form{
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.reg-bg-con{
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1000;
     min-height: 100%;
-    position: relative;
-    background-color: rgba(0, 0, 0, .3);
-} */
+}
 
 .form-container {
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.3);    
     margin-top: 5%;
     position: absolute;
     width: 40%;
@@ -175,13 +149,11 @@ button.btn.submit:hover
 @media screen and (max-width: 960px){
     .form-container{
         width: 80%;
-        top: 60%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .form-container{
         width: 100%;
-        top: 70%;
     }
 }

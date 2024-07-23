@@ -8,6 +8,7 @@ import {Link} from 'react-router-dom';
 import close from '../assets/close2.svg';
 import AuthContext from '../Context/AuthProvider';
 import '../Signup/Register.css';
+import './Login.css';
 
 const LOGIN_URL ='/login';
 
@@ -71,8 +72,8 @@ const Login = () => {
                 <section>
                     <Link to="/"/>
                 </section>):(
-                <div className="background-container col-sm-12">
-                    <section className="container-fluid">
+                <div className="">
+                    <section className="container-fluid reg-bg-con">
                         <div className="row vh-100">
                             <div className="col-md-4 col-sm-12">
                                 <div className="form-container-log">
@@ -84,8 +85,7 @@ const Login = () => {
                                         <p ref={errRef} className={errMsg ? "errmsg" : "offscreen"} aria-live="assertive">{errMsg}</p>
                                         <div className="row">
                                             <div className="col-12 d-flex justify-content-between align-items-center">
-                                                <h1 className="title mt-4 mb-4 ms-3">&nbsp;&nbsp;Sign in to your Account</h1>
-                                                <img src={logo} className="img-fluid" alt="Logo" style={{ maxHeight: '80px', width: 'auto' }} />
+                                                <h1 className="title mx-auto">Sign in to your Account</h1>
                                             </div>
                                         </div>
                                         <form onSubmit={handleSubmit} className="ms-4 me-4">
